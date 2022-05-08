@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #191919;
+}
+
+html, body, div {
+    background-color: #191919;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+@media only screen and (max-height: 1024px) {
+    img {
+        width: 200vh;
+    }
+}
+
+* {
+    cursor: none;
+}
+
+.navbar-color {
+    background-color: #000000;
+}
+
+/* Center name element  */
+#name {
+    z-index: 1;
+    top: 40%;
+}
+
+/* Space navbar items evenly */
+.navbar-nav {
+    text-align: justify;
+    min-width: 100%;
+}
+/* Fix navbar to the bottom */
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.top {
+    top: 25%;
+    width: 100%;
+}
+
+
+/* Cursor support for mobile and desktop */
+@media only screen and (min-width: 1325px) {
+    .cursor {
+        opacity: 25%;
+    }
+}
+
+@media only screen and (max-width: 1325px) {
+    .cursor {
+        opacity: 0;
+    }
+}
+
+/* Custom Cursor */
+.cursor {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 50ms;
+    transition-timing-function: ease-out;
+    pointer-events: none;
+    transform: translate3d(0,0,0);
+}
+
+/* Makes elements not selectable */
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+        -webkit-user-drag: none;
+}
+
+/* Swup page animations */
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+/* Fix cursor at bottom of page showing scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+}

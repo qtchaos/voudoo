@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    About
+{% endblock %}
+
+
+{% block body %}
+{#    <div>#}
+{#        <img src="./static/images/3.jpg" alt="New York" class="d-block img-fluid">#}
+{#    </div>#}
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-color fs-4 top">
+        <ul class="navbar-nav nav-fill m-1">
+            <li class="nav-item">
+                <a class="nav-link noselect" href="{{ url_for("index") }}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link noselect active" href="{{ url_for("about") }}">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link noselect" href="{{ url_for("contact") }}">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="m-4 fs-5 text-light">
+            <h1 class="my-4">Band</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam lorem, tincidunt vitae sapien laoreet, convallis condimentum est. Nunc porttitor egestas enim, ac interdum ligula tincidunt ut. Suspendisse id pulvinar dui. Quisque convallis porta mi eu bibendum. Donec a felis sed leo viverra posuere. Quisque a pellentesque ipsum, sed ultrices purus. Nulla facilisi. Praesent blandit sem nulla, id convallis leo vehicula nec. Nulla at risus id magna auctor rhoncus sit amet vitae eros. Fusce molestie, enim a dictum interdum, metus ex cursus tortor, et accumsan mi ante vitae lectus.
+
+    Praesent at tristique mi. Quisque nec dui ut ligula gravida congue eu at nisl. Morbi sed enim accumsan, aliquam quam et, fermentum ipsum. Etiam augue felis, ultricies venenatis turpis eu, elementum rhoncus nibh. Ut finibus dignissim lacus, vitae congue diam rhoncus et. Aliquam erat volutpat. Donec ut tincidunt felis. Sed convallis tempus libero, vitae tincidunt libero porttitor interdum. Maecenas velit sapien, rutrum a erat sit amet, facilisis fringilla enim. Maecenas quis sem at tortor condimentum dignissim. Aenean euismod placerat justo, vitae dignissim nisl vehicula eget. Ut in massa justo. Proin vulputate augue et augue bibendum sollicitudin. Cras convallis dui non rutrum fringilla. Cras viverra semper est sit amet rutrum.
+
+    Curabitur eleifend vel enim quis congue. Duis dapibus nibh a vestibulum suscipit. Aenean ultrices eleifend nibh, sed faucibus est ultrices a. Nullam feugiat consectetur neque ut bibendum. Sed arcu nisl, efficitur faucibus porttitor sed, hendrerit eu urna. Ut erat nibh, elementum in eros vel, faucibus posuere urna. In luctus libero non magna porta mollis. Nunc non nibh id ante laoreet rhoncus.
+
+    Nam dapibus a felis vehicula consequat. Donec elit nisl, pretium sed pretium non, ultricies nec erat. In hac habitasse platea dictumst. Nullam non nisi ac magna porttitor pharetra dictum ut lorem. Nunc aliquet massa quis lacus semper congue. Nulla feugiat dapibus ligula, at eleifend nibh eleifend id. Vestibulum ligula turpis, eleifend vitae fermentum vehicula, porta non enim. Nam pharetra sem a congue congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean malesuada fringilla sodales. Pellentesque lacinia egestas sapien, eget aliquam erat tristique vel. Morbi blandit pulvinar magna, eu consequat purus gravida ac.
+
+    In sit amet odio ipsum. Fusce enim eros, sollicitudin quis tellus cursus, porttitor tempor libero. Proin eu elit bibendum quam rutrum porttitor. Etiam in sapien vitae diam ullamcorper iaculis ut non mauris. Proin elementum a enim at iaculis. Maecenas ornare mi in erat placerat pretium. Nulla ultricies velit id dictum luctus. Mauris diam libero, euismod convallis augue vel, elementum tempus quam.
+            </p>
+        </div>
+    </div>
+
+{% endblock %}
