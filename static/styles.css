@@ -38,12 +38,14 @@ img {
     text-align: justify;
     min-width: 100%;
 }
+
 /* Fix navbar to the bottom */
 .bottom {
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
 .top {
     top: 25%;
     width: 100%;
@@ -73,18 +75,18 @@ img {
     transition-duration: 50ms;
     transition-timing-function: ease-out;
     pointer-events: none;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
 }
 
 /* Makes elements not selectable */
 .noselect {
     -webkit-touch-callout: none;
-      -webkit-user-select: none;
-       -khtml-user-select: none;
-         -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
-        -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 /* Swup page animations */
