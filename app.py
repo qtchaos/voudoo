@@ -1,7 +1,10 @@
 from flask import Flask, render_template, redirect
+from flask_htmlmin import HTMLMIN
 from flask_minify import Minify
 
 app = Flask(__name__)
+app.config['MINIFY_HTML'] = True
+htmlmin = HTMLMIN(app)
 Minify(app=app, html=True, js=True, cssless=True)
 
 

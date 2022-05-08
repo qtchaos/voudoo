@@ -8,9 +8,13 @@ html, body, div {
 }
 
 img {
-    width: 100%;
     margin: auto;
     height: auto;
+}
+
+.index-img {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 @media only screen and (max-height: 1024px) {
