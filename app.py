@@ -1,6 +1,8 @@
 from flask import Flask, render_template, redirect
+from flask_minify import Minify
 
 app = Flask(__name__)
+Minify(app=app, html=True, js=True, cssless=True)
 
 
 @app.route('/')
