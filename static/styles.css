@@ -23,7 +23,7 @@ img {
     cursor: none;
 }
 
-.navbar-color {
+.navbar-color, #header {
     background-color: #000000;
 }
 
