@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/images/favicon-16x16.png">
+    <link rel="manifest" href="./static/site.webmanifest">
     <link rel="stylesheet" href="./static/bootstrap.min.css">
     <link rel="stylesheet" href="./static/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta charset="UTF-8">
-    <title>{% block title %}{% endblock %}</title>
+    <title>{% block title %}{% endblock %} | Official Website</title>
 </head>
 <body>
 <main id="swup" class="transition-fade ease-in-out">
@@ -14,8 +18,8 @@
     <div class="cursor"></div>
 </main>
 <div class="transition-fade"></div>
-<script async src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-<script defer>
+<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+<script>
     const swup = new Swup();
 
     function init() {
@@ -25,7 +29,6 @@
             cursor.setAttribute("style", "top: " + e.pageY + "px; left:" + e.pageX + "px");
         });
     }
-
     init();
 
     swup.on('contentReplaced', init);
