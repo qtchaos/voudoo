@@ -20,8 +20,6 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest
-    - name: size-limit-action
-      uses: andresz1/size-limit-action@v1
     - name: Is Website vulnerable
       # You may pin to the exact commit or the version.
       # uses: lirantal/is-website-vulnerable@02d7916b29a1fd9d6a9bea0d83960d4288afa1a6
@@ -35,5 +33,5 @@ jobs:
       uses: PabloLec/website-to-gif@1.0.4
       with:
         # Web page URL to be captured
-        url: https://loov-alpha-g9qzc.ondigitalocean.app/
+        url: https://voudoo.me
         # GIF saving path, starts with /, defaults to repo root
