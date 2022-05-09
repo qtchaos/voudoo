@@ -9,20 +9,20 @@
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./static/images/1.webp" alt="Los Angeles" width="1920px" height="1080px" class="d-block">
-{#                TODO use index-img#}
+                <img src="./static/images/1.webp" alt="Los Angeles" width="1920px" height="1080px" class="d-block index-img">
             </div>
             <div class="carousel-item">
-                <img src="./static/images/2.webp" alt="Chicago" width="1920px" height="1080px" class="d-block">
+                <img src="./static/images/2.webp" alt="Chicago" width="1920px" height="1080px" class="d-block index-img">
             </div>
             <div class="carousel-item">
-                <img src="./static/images/3.webp" alt="New York" width="1920px" height="1080px" class="d-block">
+                <img src="./static/images/3.webp" alt="New York" width="1920px" height="1080px" class="d-block index-img">
             </div>
+            <img id="logo" src="./static/images/logo_with_text.png" alt="New York" class="position-absolute noselect">
         </div>
     </div>
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark navbar-color fs-4 bottom">
-            <ul class="navbar-nav nav-fill my-3">
+            <ul class="navbar-nav nav-fill custom-margin">
                 <li class="nav-item">
                     <a class="nav-link noselect" href="{{ url_for("index") }}">Home</a>
                 </li>

@@ -55,15 +55,34 @@ img {
     width: 100%;
 }
 
+#logo {
+    width: 60vh;
+}
+
 
 /* Cursor support for mobile and desktop */
 @media only screen and (min-width: 1325px) {
+    #logo {
+        top: 35%;
+        left: 33%;
+    }
+    .custom-margin {
+        margin: 1rem;
+    }
     .cursor {
         opacity: 25%;
     }
 }
 
 @media only screen and (max-width: 1325px) {
+    #logo {
+        top: 35%;
+        left: -15%;
+    }
+    .custom-margin {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
     .cursor {
         opacity: 0;
     }
