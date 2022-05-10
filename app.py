@@ -23,6 +23,11 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route('/music')
+def music():
+    return render_template("music.html")
+
+
 @app.errorhandler(404)
 def page_not_found(e):
     return redirect("/", 302)
