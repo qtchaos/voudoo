@@ -1,7 +1,9 @@
 <div align="center" style="padding-left: 5%; padding-right: 5%">
 <h1>Voudoo</h1>
 <p>Website made using Flask and Bootstrap for a personal project.</p>
-
+  
+[![CodeQL](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml/badge.svg)](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml)
+  
 ---
   
 <img src="https://media.discordapp.net/attachments/865638548928725012/976486665793196072/unknown.png?width=1344&height=701" alt="Screenshot of the main page">
