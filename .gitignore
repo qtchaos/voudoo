@@ -4,6 +4,11 @@
 
 # User-specific stuff
 .idea
+Gruntfile.js
+package-lock.json
+package.json
+node_modules
+static/bootstrap.min.css
 
 # Generated files
 .idea/**/contentModel.xml
