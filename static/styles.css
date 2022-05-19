@@ -55,6 +55,12 @@ img {
     width: 100%;
 }
 
+ul {
+    text-align:center;
+    display: table;
+    margin: 0 auto;
+}
+
 #logo {
     width: 60vh;
 }
