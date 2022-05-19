@@ -11,8 +11,10 @@ This assumes you already have [Git](https://git-scm.com/downloads) and [Python](
 git clone https://github.com/qtchaos/voudoo.git
 cd voudoo
 pip install -r requirements.txt
-python -m flask run
 ```
+Development run command: ``python -m flask run``
+
+Production run command: ``gunicorn --worker-tmp-dir /dev/shm app:app``
 
 ## License
 This project uses the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/), these are the conditions:
