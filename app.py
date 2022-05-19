@@ -28,6 +28,11 @@ def music():
     return render_template("music.html")
 
 
+@app.route('/stolenflame')
+def youtube():
+    return redirect('https://www.youtube.com/watch?v=sIWhkI9O8EI', 308)
+
+
 @app.errorhandler(404)
 def page_not_found(e):
     return redirect("/", 302)
