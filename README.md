@@ -1,18 +1,24 @@
-<div align="center" style="padding-left: 5%; padding-right: 5%">
-<h1>Voudoo</h1>
-<p>Website made using Flask and Bootstrap for a personal project.</p>
+# Voudoo &middot; [![CodeQL](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml/badge.svg)](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml) [![CodeFactor](https://www.codefactor.io/repository/github/qtchaos/voudoo/badge)](https://www.codefactor.io/repository/github/qtchaos/voudoo)
 
-[![CodeQL](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml/badge.svg)](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml)
-[![CodeFactor](https://www.codefactor.io/repository/github/qtchaos/voudoo/badge)](https://www.codefactor.io/repository/github/qtchaos/voudoo)
+Voudoo is a website that I made for a personal project.
 
----
+* **Less is more:** Uses Jinja for templating, allowing you to have less code overall.
+* **Fast for the user:** Uses Flask, a Python Web Framework for **S**erver **S**ide **R**endering.
 
-<img src="https://media.discordapp.net/attachments/865638548928725012/976486665793196072/unknown.png?width=1344&height=701" alt="Screenshot of the main page">
-<div style="display: flex">
-<img width="25%" height="25%" src="https://media.discordapp.net/attachments/865638548928725012/976488373642485850/unknown.png?width=323&height=701" alt="Screenshot of the main page on mobile">
-<img width="25%" height="25%" src="https://media.discordapp.net/attachments/865638548928725012/976487634618687508/unknown.png" alt="Screenshot of the main page on mobile">
-</div>
-</div>
+## Installation
+This assumes you already have [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/) installed.
+```
+git clone https://github.com/qtchaos/voudoo.git
+cd voudoo
+pip install -r requirements.txt
+python -m flask run
+```
 
+## License
+This project uses the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/), these are the terms:
+* **Disclose source:** Source code must be made available when the licensed material is distributed.
+* **License and copyright notice:** A copy of the license and copyright notice must be included with the licensed material.
+* **Same license:** Modifications must be released under the same license when distributing the licensed material. In some cases a similar or related license may be used.
+* **State changes:** Changes made to the licensed material must be documented.
 
     
