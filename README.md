@@ -1,4 +1,4 @@
-# Voudoo &middot; [![CodeQL](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml/badge.svg)](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml) [![CodeFactor](https://www.codefactor.io/repository/github/qtchaos/voudoo/badge)](https://www.codefactor.io/repository/github/qtchaos/voudoo)
+# Voudoo &middot; [![CodeQL](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml/badge.svg)](https://github.com/qtchaos/voudoo/actions/workflows/codeql.yml) [![Website Security](https://github.com/qtchaos/voudoo/actions/workflows/python-package.yml/badge.svg)](https://github.com/qtchaos/voudoo/actions/workflows/python-package.yml) [![CodeFactor](https://www.codefactor.io/repository/github/qtchaos/voudoo/badge)](https://www.codefactor.io/repository/github/qtchaos/voudoo)
 
 Voudoo is a website that I made for a personal project.
 
