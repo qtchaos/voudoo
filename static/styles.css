@@ -55,10 +55,17 @@ img {
     width: 100%;
 }
 
-ul {
-    text-align:center;
-    display: table;
-    margin: 0 auto;
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+    margin-top: 2%;
+	position: absolute;
+	top: 0;
 }
 
 #logo {
@@ -78,6 +85,11 @@ ul {
     .cursor {
         opacity: 25%;
     }
+    .videoWrapper iframe {
+        width: 40%;
+	    height: 40%;
+        left: 30%;
+    }
 }
 
 @media only screen and (max-width: 1325px) {
@@ -91,6 +103,11 @@ ul {
     }
     .cursor {
         opacity: 0;
+    }
+    .videoWrapper iframe {
+        width: 100%;
+	    height: 100%;
+        left: 0;
     }
 }
 
