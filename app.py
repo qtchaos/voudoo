@@ -7,8 +7,6 @@ app.config['MINIFY_HTML'] = True
 htmlmin = HTMLMIN(app)
 Minify(app=app, html=True, js=True, cssless=True)
 
-email = 'info@voudoo.me'
-
 
 @app.route('/')
 def index():
@@ -22,7 +20,7 @@ def about():
 
 @app.route('/contact')
 def contact():
-    return render_template("contact.html", email=email)
+    return render_template("contact.html")
 
 
 @app.route('/music')
