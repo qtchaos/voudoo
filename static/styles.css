@@ -71,6 +71,7 @@ img {
 }
 
 #logo {
+    top: 35%;
     width: 60vh;
 }
 
@@ -78,7 +79,6 @@ img {
 /* Cursor support for mobile and desktop */
 @media only screen and (min-width: 1325px) {
     #logo {
-        top: 35%;
         left: 33%;
     }
     .custom-margin {
@@ -96,7 +96,6 @@ img {
 
 @media only screen and (max-width: 1325px) {
     #logo {
-        top: 35%;
         left: -15%;
     }
     .custom-margin {
@@ -112,6 +111,31 @@ img {
         left: 0;
     }
 }
+
+@media (min-width: 375px) and (max-width: 414px) {
+    #logo {
+        left: 0;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 600px) {
+    #logo {
+        left: -10%;
+    }
+}
+
+@media (width: 393px), (width: 390px), (width: 375px), (width: 412px) {
+    #logo {
+        left: -12%;
+    }
+}
+
+@media (width: 360px) {
+    #logo {
+        left: -10%;
+    }
+}
+
 
 /* Custom Cursor */
 .cursor {
