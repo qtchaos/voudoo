@@ -1,6 +1,8 @@
 html {
     scroll-behavior: smooth;
     background-color: #191919;
+    height: 100%;
+    overflow: hidden;
 }
 
 html, body, div {
